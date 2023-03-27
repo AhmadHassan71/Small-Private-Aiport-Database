@@ -174,7 +174,11 @@ Here were the results to the queries which we ran (some of which didn't return a
 
 ## Query 25
 
-! [query 25](screenshots/q25.JPG)
+! [query 25 - 1](screenshots/q25a.JPG)
+! [query 25 - 2](screenshots/q25b.JPG)
+! [query 25 - 3](screenshots/q25c.JPG)
+! [query 25 - 4](screenshots/q25d.JPG)
+
 
 
 
