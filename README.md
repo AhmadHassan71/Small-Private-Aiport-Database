@@ -89,98 +89,98 @@ Here were the results to the queries which we ran (some of which didn't return a
 
 ## Query 3
 
-! [query 3](screenshots/q3.JPG)
+![query 3](screenshots/q3.JPG)
 ## Query 4
-! [query 4](screenshots/q4.JPG)
+![query 4](screenshots/q4.JPG)
 
 ## Query 5
 
-! [query 5](screenshots/q5.JPG)
+![query 5](screenshots/q5.JPG)
 
 ## Query 6
 
-! [query 6](screenshots/q6.JPG)
+![query 6](screenshots/q6.JPG)
 
 
 ## Query 7
 
-! [query 7](screenshots/q7.JPG)
+![query 7](screenshots/q7.JPG)
 
 
 ## Query 8
 
-! [query 8](screenshots/q8.JPG)
+![query 8](screenshots/q8.JPG)
 
 
 ## Query 9
 
-! [query 9](screenshots/q9.JPG)
+![query 9](screenshots/q9.JPG)
 
 ## Query 10
 
-! [query 10](screenshots/q10.JPG)
+![query 10](screenshots/q10.JPG)
 
 ## Query 11
-! [query 11](screenshots/q11.JPG)
+![query 11](screenshots/q11.JPG)
 
 ## Query 12
 
-! [query 12](screenshots/q12.JPG)
+![query 12](screenshots/q12.JPG)
 
 ## Query 13
 
-! [query 13](screenshots/q13.JPG)
+![query 13](screenshots/q13.JPG)
 
 ## Query 14
 
-! [query 14](screenshots/q14.JPG)
+![query 14](screenshots/q14.JPG)
 
 ## Query 15
 
-! [query 15](screenshots/q15.JPG)
+![query 15](screenshots/q15.JPG)
 
 ## Query 16
 
-! [query 16](screenshots/q16.JPG)
+![query 16](screenshots/q16.JPG)
 
 ## Query 17
 
-! [query 17](screenshots/q17.JPG)
+![query 17](screenshots/q17.JPG)
 
 ## Query 18
 
-! [query 18](screenshots/q18.JPG)
+![query 18](screenshots/q18.JPG)
 
 ## Query 19
 
-! [query 19](screenshots/q19.JPG)
+![query 19](screenshots/q19.JPG)
 
 ## Query 20
-! [query 20](screenshots/q20.JPG)
+![query 20](screenshots/q20.JPG)
 
 ## Query 21
 
-! [query 21](screenshots/q21.JPG)
+![query 21](screenshots/q21.JPG)
 
 ## Query 22
-! [query 22](screenshots/q22.JPG)
+![query 22](screenshots/q22.JPG)
 
 ## Query 23
-! [query 23](screenshots/q23.JPG)
+![query 23](screenshots/q23.JPG)
 
 ## Query 24
 
-! [query 24](screenshots/q24.JPG)
+![query 24](screenshots/q24.JPG)
 
 ## Query 25
 
-! [query 25 - 1](screenshots/q25a.JPG)
+![query 25 - 1](screenshots/q25a.JPG)
 
-! [query 25 - 2](screenshots/q25c.png)
+![query 25 - 2](screenshots/q25c.png)
 
-! [query 25 - 3](screenshots/q25d.JPG)
+![query 25 - 3](screenshots/q25d.JPG)
 
-! [query 25 - 4](screenshots/q25e.JPG)
+![query 25 - 4](screenshots/q25e.JPG)
 
 
 
