@@ -49,7 +49,7 @@ This is a database that keeps track of airplanes, their owners, airport employee
 
 ![image of the Relational Model](RelationalModel_AirportDatabaseSystem.png)
 
-###The following tables have been created to represent the entities and relationships in the database:
+### The following tables have been created to represent the entities and relationships in the database:
 
 `Software used for database creation:` **Microsoft SQL Server Management Studio**
 
