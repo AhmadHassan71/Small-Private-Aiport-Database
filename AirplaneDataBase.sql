@@ -345,31 +345,33 @@ INSERT INTO OWNS (OwnerID, Reg#, Pdate) VALUES
 CREATE TABLE WORKS_ON (
   EmpID INT NOT NULL,
   OF_TYPE VARCHAR(30) NOT NULL,
+  Service_Id INT NOT NULL,
   FOREIGN KEY (EmpID) REFERENCES EMPLOYEE (E_ID),
+  FOREIGN KEY (Service_Id) REFERENCES SERVICE_RECORD (Service_Id),
   FOREIGN KEY (OF_TYPE) REFERENCES PLANE_TYPE (Model)
 );
 
-INSERT INTO WORKS_ON (EmpID, OF_TYPE) VALUES
-(1, 'Boeing 747'),
-(2, 'Airbus A320'),
-(3, 'Cessna 172'),
-(4, 'Piper Cherokee'),
-(5, 'Beechcraft Baron'),
-(6, 'Cirrus SR22'),
-(7, 'Piper Cub'),
-(8, 'Boeing 737'),
-(9, 'Airbus A380'),
-(10,'Embraer Phenom'),
-(11,'Cessna Citation'),
-(12,'Pilatus PC-12'),
-(13,'Boeing 787'),
-(14,'Piper Meridian'),
-(15,'Cessna Caravan'),
-(16,'Airbus A330'),
-(17,'Beechcraft King Air'),
-(18,'Gulfstream G650'),
-(19,'Bombardier Global Express'),
-(20,'Boeing 777');
+INSERT INTO WORKS_ON (EmpID, OF_TYPE, Service_Id) VALUES
+(1, 'Boeing 747',1),
+(2, 'Airbus A320',2),
+(3, 'Cessna 172',3),
+(4, 'Piper Cherokee',4),
+(5, 'Beechcraft Baron',5),
+(6, 'Cirrus SR22',6),
+(7, 'Piper Cub',7),
+(8, 'Boeing 737',8),
+(9, 'Airbus A380',9),
+(10,'Embraer Phenom',10),
+(11,'Cessna Citation',11),
+(12,'Pilatus PC-12',12),
+(13,'Boeing 787',13),
+(14,'Piper Meridian',14),
+(15,'Cessna Caravan',15),
+(16,'Airbus A330',16),
+(17,'Beechcraft King Air',17),
+(18,'Gulfstream G650',18),
+(19,'Bombardier Global Express',19),
+(20,'Boeing 777',20);
 
 
 
@@ -442,7 +444,8 @@ WHERE E.E_Shift = 'Night';
 --Q#6
 SELECT top 5 (employee.E_ID),PERSON.P_Name, SUM(SERVICE_RECORD.Hours) AS total_hours
 FROM employee
-INNER JOIN SERVICE_RECORD ON employee.E_ID = SERVICE_RECORD.Service_Id
+INNER JOIN WORKS_ON ON WORKS_ON.EmpID = employee.E_ID 
+INNER JOIN SERVICE_RECORD ON SERVICE_RECORD.Service_Id = WORKS_ON.Service_Id
 JOIN PERSON on EMPLOYEE.E_Ssn = PERSON.P_Ssn
 GROUP BY employee.E_ID,PERSON.P_Name
 ORDER BY total_hours DESC;
@@ -504,11 +507,12 @@ INNER JOIN owns ON owns.OwnerID = o.O_ID
 Inner JOIN PERSON on Person.P_Ssn=o.P_Ssn
 Inner JOIN CORPORATION on CORPORATION.C_ID=o.C_ID
 INNER JOIN AIRPLANE a ON a.Reg# = owns.Reg#
-JOIN Employee e ON e.E_ID = e.E_ID
-JOIN SERVICE_RECORD s ON s.Service_Id = e.E_ID
-JOIN PLANE_SERVICE p ON p.ServiceID = s.Service_Id
+JOIN PLANE_SERVICE p ON p.Reg# = a.Reg#
+JOIN SERVICE_RECORD s ON s.Service_Id = p.ServiceID
+JOIN WORKS_ON w ON w.Service_Id = s.Service_Id
+JOIN Employee e ON e.E_ID = w.EmpID
 WHERE s.Work_Code IS NULL
-group by o.O_ID,PERSON.P_Name,CORPORATION.C_Name
+group by o.O_ID,PERSON.P_Name,CORPORATION.C_Name;
 
 
 --Q#14
@@ -537,7 +541,7 @@ select PERSON.P_Name,CORPORATION.C_Name, sum(SERVICE_RECORD.Hours) as Total_Num_
 from EMPLOYEE
 join  PERSON on EMPLOYEE.E_Ssn=PERSON.P_Ssn
 join WORKS_ON on EMPLOYEE.E_ID=WORKS_ON.EmpID
-join PLANE_SERVICE on PLANE_SERVICE.ServiceID=WORKS_ON.EmpID
+join PLANE_SERVICE on PLANE_SERVICE.ServiceID=WORKS_ON.Service_Id
 join SERVICE_RECORD on PLANE_SERVICE.ServiceID=SERVICE_RECORD.Service_Id
 join AIRPLANE on AIRPLANE.Reg#=PLANE_SERVICE.Reg#
 join OWNS on AIRPLANE.Reg#=OWNS.Reg#
@@ -555,7 +559,8 @@ join OWNS on AIRPLANE.Reg#=OWNS.Reg#
 join OWNER on OWNER.O_ID=owns.OwnerID 
 join PLANE_SERVICE on PLANE_SERVICE.Reg#=AIRPLANE.Reg#
 join SERVICE_RECORD on PLANE_SERVICE.ServiceID=SERVICE_RECORD.Service_Id
-join EMPLOYEE on SERVICE_RECORD.Service_Id=EMPLOYEE.E_ID
+join WORKS_ON on WORKS_ON.Service_Id=SERVICE_RECORD.Service_Id
+join EMPLOYEE on WORKS_ON.EmpID=EMPLOYEE.E_ID
 where OWNER.C_ID is null
 and EMPLOYEE.E_Shift='Day';
 
@@ -612,8 +617,8 @@ order by Num_Types_Planes_Auth desc;
 
 --Q#25
 --Total number of pilots and employees in the airport
-select count(*) from EMPLOYEE
-select count(*) from PILOT;
+select count(*) as number_employees from EMPLOYEE
+select count(*) as number_pilots from PILOT;
 /*
 As simple as it may sound, query is important because it provides the total count of employees 
 in the company. This information can be used for various purposes such as tracking employee growth, 
