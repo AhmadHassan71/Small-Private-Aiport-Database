@@ -4,6 +4,7 @@
 Initially we were presented with a case study on an airplane database system. It was quite similar to an already performed task in the lab and thus we had some prior experience. Using the information we acquired from our classes and our own general knowledge we constructed a schema. This is a database that keeps track of airplanes, their owners, airport employees, and pilots. 
 
 `Software Used For Creating Schema:` **Lucidchart**
+
 `Software Used For Creating Database:` **Microsoft SQL Server Management Studio**
 
 # ERD Diagram
