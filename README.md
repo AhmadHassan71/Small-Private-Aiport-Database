@@ -176,7 +176,7 @@ Here were the results to the queries which we ran (some of which didn't return a
 
 ! [query 25 - 1](screenshots/q25a.JPG)
 
-! [query 25 - 2](screenshots/q25c.JPG)
+! [query 25 - 2](screenshots/q25c.png)
 
 ! [query 25 - 3](screenshots/q25d.JPG)
 
