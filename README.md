@@ -89,55 +89,93 @@ Here were the results to the queries which we ran (some of which didn't return a
 
 ## Query 3
 
-! [query 3](../i210403_i210659_Assignment2_DB/)
+! [query 3](../i210403_i210659_Assignment2_DB/screenshots/q3.JPG)
 ## Query 4
+! [query 4](../i210403_i210659_Assignment2_DB/screenshots/q4.JPG)
 
 ## Query 5
 
+! [query 5](../i210403_i210659_Assignment2_DB/screenshots/q5.JPG)
 
 ## Query 6
 
+! [query 6](../i210403_i210659_Assignment2_DB/screenshots/q6.JPG)
+
+
 ## Query 7
 
-## Query 6
+! [query 7](../i210403_i210659_Assignment2_DB/screenshots/q7.JPG)
 
-## Query 7
 
 ## Query 8
 
+! [query 8](../i210403_i210659_Assignment2_DB/screenshots/q8.JPG)
+
+
 ## Query 9
+
+! [query 9](../i210403_i210659_Assignment2_DB/screenshots/q9.JPG)
 
 ## Query 10
 
+! [query 10](../i210403_i210659_Assignment2_DB/screenshots/q10.JPG)
+
 ## Query 11
+! [query 11](../i210403_i210659_Assignment2_DB/screenshots/q11.JPG)
 
 ## Query 12
 
+! [query 12](../i210403_i210659_Assignment2_DB/screenshots/q12.JPG)
+
 ## Query 13
+
+! [query 13](../i210403_i210659_Assignment2_DB/screenshots/q13.JPG)
 
 ## Query 14
 
+! [query 14](../i210403_i210659_Assignment2_DB/screenshots/q14.JPG)
+
 ## Query 15
+
+! [query 15](../i210403_i210659_Assignment2_DB/screenshots/q15.JPG)
 
 ## Query 16
 
+! [query 16](../i210403_i210659_Assignment2_DB/screenshots/q16.JPG)
+
 ## Query 17
+
+! [query 17](../i210403_i210659_Assignment2_DB/screenshots/q17.JPG)
 
 ## Query 18
 
+! [query 18](../i210403_i210659_Assignment2_DB/screenshots/q18.JPG)
+
 ## Query 19
 
+! [query 19](../i210403_i210659_Assignment2_DB/screenshots/q19.JPG)
+
 ## Query 20
+! [query 20](../i210403_i210659_Assignment2_DB/screenshots/q20.JPG)
 
 ## Query 21
 
+! [query 21](../i210403_i210659_Assignment2_DB/screenshots/q21.JPG)
+
 ## Query 22
+! [query 22](../i210403_i210659_Assignment2_DB/screenshots/q22.JPG)
 
 ## Query 23
+! [query 23](../i210403_i210659_Assignment2_DB/screenshots/q23.JPG)
 
 ## Query 24
 
+! [query 24](../i210403_i210659_Assignment2_DB/screenshots/q24.JPG)
+
 ## Query 25
+
+! [query 25](../i210403_i210659_Assignment2_DB/screenshots/q25.JPG)
+
 
 
 # Credits
