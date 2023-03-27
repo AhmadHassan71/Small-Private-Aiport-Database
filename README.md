@@ -5,7 +5,6 @@ Initially we were presented with a case study on an airplane database system. It
 
 `Software Used For Creating Schema:` **Lucidchart**
 
-`Software Used For Creating Database:` **Microsoft SQL Server Management Studio**
 
 # ERD Diagram
 
@@ -50,7 +49,7 @@ This is a database that keeps track of airplanes, their owners, airport employee
 
 The following tables have been created to represent the entities and relationships in the database:
 
-`Software used for database creation:` **SQL Server**
+`Software used for database creation:` **Microsoft SQL Server Management Studio**
 
 - PERSON :  entity with attributes for personal information
 
