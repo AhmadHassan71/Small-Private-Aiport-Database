@@ -129,52 +129,52 @@ Here were the results to the queries which we ran (some of which didn't return a
 
 ## Query 13
 
-! [query 13](../i210403_i210659_Assignment2_DB/screenshots/q13.JPG)
+! [query 13](screenshots/q13.JPG)
 
 ## Query 14
 
-! [query 14](../i210403_i210659_Assignment2_DB/screenshots/q14.JPG)
+! [query 14](screenshots/q14.JPG)
 
 ## Query 15
 
-! [query 15](../i210403_i210659_Assignment2_DB/screenshots/q15.JPG)
+! [query 15](screenshots/q15.JPG)
 
 ## Query 16
 
-! [query 16](../i210403_i210659_Assignment2_DB/screenshots/q16.JPG)
+! [query 16](screenshots/q16.JPG)
 
 ## Query 17
 
-! [query 17](../i210403_i210659_Assignment2_DB/screenshots/q17.JPG)
+! [query 17](screenshots/q17.JPG)
 
 ## Query 18
 
-! [query 18](../i210403_i210659_Assignment2_DB/screenshots/q18.JPG)
+! [query 18](screenshots/q18.JPG)
 
 ## Query 19
 
-! [query 19](../i210403_i210659_Assignment2_DB/screenshots/q19.JPG)
+! [query 19](screenshots/q19.JPG)
 
 ## Query 20
-! [query 20](../i210403_i210659_Assignment2_DB/screenshots/q20.JPG)
+! [query 20](screenshots/q20.JPG)
 
 ## Query 21
 
-! [query 21](../i210403_i210659_Assignment2_DB/screenshots/q21.JPG)
+! [query 21](screenshots/q21.JPG)
 
 ## Query 22
-! [query 22](../i210403_i210659_Assignment2_DB/screenshots/q22.JPG)
+! [query 22](screenshots/q22.JPG)
 
 ## Query 23
-! [query 23](../i210403_i210659_Assignment2_DB/screenshots/q23.JPG)
+! [query 23](screenshots/q23.JPG)
 
 ## Query 24
 
-! [query 24](../i210403_i210659_Assignment2_DB/screenshots/q24.JPG)
+! [query 24](screenshots/q24.JPG)
 
 ## Query 25
 
-! [query 25](../i210403_i210659_Assignment2_DB/screenshots/q25.JPG)
+! [query 25](screenshots/q25.JPG)
 
 
 
