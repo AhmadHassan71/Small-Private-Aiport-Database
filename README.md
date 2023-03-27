@@ -7,7 +7,7 @@ Initially we were presented with a case study on an airplane database system. It
 
 # ERD Diagram
 
-![image of the schema](../i210403_i210659_Assignment2_DB/ERD_AirportDatabaseSystem.png)
+![image of the schema](/i210403_i210659_Assignment2_DB/ERD_AirportDatabaseSystem.png)
 
 ## Brief Explanation
 
