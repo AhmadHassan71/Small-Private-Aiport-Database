@@ -89,7 +89,7 @@ Here were the results to the queries which we ran (some of which didn't return a
 
 ## Query 3
 
-![query 3](screenshots/q3.JPG)
+![query 3](/screenshots/q3.JPG)
 ## Query 4
 ![query 4](screenshots/q4.JPG)
 
